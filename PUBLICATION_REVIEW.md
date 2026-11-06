@@ -6,13 +6,15 @@
 
 ## Included material
 
-The intended publication set contains only newly written Markdown summaries: the landing page, four project briefs, foundations, conceptual architecture, selected research questions and findings, status/evidence notes, AI-assistance disclosure, this review note, and the rights notice.
+The intended publication set contains only newly written Markdown summaries: the landing page, four research-project briefs, a supporting Security Assessments brief, foundations, conceptual architecture, selected research questions and findings, status/evidence notes, AI-assistance disclosure, this review note, and the rights notice.
 
 ## Disclosure boundary
 
 The content excludes personal names and contact information, customer or household material, credentials, private links, internal work-item and commit identifiers, local machine details, raw incident evidence, source code, executable examples, configuration, schemas, model weights, datasets, and operational security procedures.
 
 Architecture is limited to conceptual responsibilities and established design directions. Research results are selected summaries with their methods and limitations; underlying implementation details remain private.
+
+The Security Assessments addition summarizes purpose, authorization boundaries, methods, bounded synthetic-test progress, and limitations. It includes no source code, copied foundational documents, raw findings, scan results, targets, private links, or operational security details. Confidential assessment reports and live evidence were not used as source material. The four-project research framing and existing AI-assistance disclosure remain in place.
 
 ## Review method
 

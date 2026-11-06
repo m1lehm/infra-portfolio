@@ -28,6 +28,10 @@ The projects share lessons through explicit review. They are separate efforts; t
 
 Read the [research questions and findings](docs/research-and-findings.md) for methods, results, negative evidence, and limitations.
 
+## Supporting capabilities
+
+- [Security Assessments](projects/security-assessments.md) — an authorization-gated assessment and reporting framework with tested offline helpers; live integrations and portfolio-wide security assurance are not established.
+
 ## Explore the work
 
 | Reading path | What it explains |
