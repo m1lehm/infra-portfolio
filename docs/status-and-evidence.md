@@ -4,6 +4,8 @@
 
 **Snapshot date: November 6, 2026.** This is a summary of reviewed committed foundation and experiment documents plus selected project work-item records available at preparation time. It is not a live status dashboard or a complete audit of every project record.
 
+Supporting-capability summaries also use current local working-tree material and retained verification records, as qualified below.
+
 ## Maturity terms
 
 | Term | Meaning in this portfolio |
@@ -25,6 +27,8 @@
 
 ## Supporting capabilities
 
+[Infra Software Factory](../projects/infra-factory.md) has implemented local planning, approval, task-state, checkpoint, recovery, and acceptance controls. Retained records demonstrate planning that stopped before approval, a blocked task recovered and resumed in a fresh process, and a trivial synthetic interactive delivery with passing acceptance checks. These demonstrations were not rerun for the portfolio. They do not establish execution of the stronger current specialist policy on those earlier tasks, general delivery reliability, host isolation, or production security. The current documented process, implementation observations, and historical demonstrations retain separate evidence boundaries.
+
 [Security Assessments](../projects/security-assessments.md) has implemented offline analysis, authorization-record checks, evidence manifests, reporting, and narrowly bounded optional adapters. Its 56 existing synthetic tests passed during preparation of the brief; external tool responses and worker state were simulated. Posture collectors are present but were not run. Governance and cloud review include manual workflows; authenticated cloud collection, broader offensive capabilities, and deployed-worker readiness remain unimplemented or unverified. This evidence does not validate the security of the four research projects.
 
 ## Source basis
@@ -39,6 +43,8 @@ The overview was newly written from these categories of private project material
 | Infra Knowledge | Historical README and draft charter, control registers, current Design records, synthetic experiment result reports, and non-normative research synthesis. No tracked root agent-instruction file was present in the reviewed committed tree. |
 
 The Security Assessments brief additionally draws on its current local operating rules, README, architecture, capability and workflow documents, adapter and planning documentation, and synthetic tests. That foundation is a local working tree rather than an accepted committed release. Existing confidential assessment reports and live evidence were excluded from review and publication.
+
+The Infra Software Factory brief draws on current operating guidance, role definitions, workflow and completion-control implementation, regression coverage, and retained planning, recovery, and synthetic delivery acceptance records. The working tree includes uncommitted changes; current documentation is not treated as proof of historical execution or an accepted release. Later direct records qualify older project-state summaries. Detailed security findings and unrelated task records are excluded from the public summary.
 
 Source documents were treated as evidence for summarization, not copied into this repository. Private source URLs, work-item identifiers, commit identities, raw evidence, and implementation content are intentionally absent. Detailed source custody remains outside this public-facing work sample.
 

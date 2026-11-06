@@ -30,6 +30,7 @@ Read the [research questions and findings](docs/research-and-findings.md) for me
 
 ## Supporting capabilities
 
+- [Infra Software Factory](projects/infra-factory.md) — a local workflow for approved AI-assisted development, with implemented task controls and bounded planning, recovery, and delivery demonstrations; broader reliability and security assurance remain unproven.
 - [Security Assessments](projects/security-assessments.md) — an authorization-gated assessment and reporting framework with tested offline helpers; live integrations and portfolio-wide security assurance are not established.
 
 ## Explore the work

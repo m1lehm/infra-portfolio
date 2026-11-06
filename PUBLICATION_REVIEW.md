@@ -6,21 +6,23 @@
 
 ## Included material
 
-The intended publication set contains only newly written Markdown summaries: the landing page, four research-project briefs, a supporting Security Assessments brief, foundations, conceptual architecture, selected research questions and findings, status/evidence notes, AI-assistance disclosure, this review note, and the rights notice.
+The intended publication set contains only newly written Markdown summaries: the landing page, four research-project briefs, supporting Infra Software Factory and Security Assessments briefs, foundations, conceptual architecture, selected research questions and findings, status/evidence notes, AI-assistance disclosure, this review note, and the rights notice.
 
 ## Disclosure boundary
 
-The content excludes personal names and contact information, customer or household material, credentials, private links, internal work-item and commit identifiers, local machine details, raw incident evidence, source code, executable examples, configuration, schemas, model weights, datasets, and operational security procedures.
+Document bodies exclude personal names and contact information, customer or household material, credentials, private links, internal work-item and commit identifiers, local machine details, raw incident evidence, source code, executable examples, configuration, schemas, model weights, datasets, and operational security procedures. Ordinary GitHub account and commit attribution may identify the owner.
 
 Architecture is limited to conceptual responsibilities and established design directions. Research results are selected summaries with their methods and limitations; underlying implementation details remain private.
 
 The Security Assessments addition summarizes purpose, authorization boundaries, methods, bounded synthetic-test progress, and limitations. It includes no source code, copied foundational documents, raw findings, scan results, targets, private links, or operational security details. Confidential assessment reports and live evidence were not used as source material. The four-project research framing and existing AI-assistance disclosure remain in place.
 
+The Infra Software Factory addition is an original conceptual summary of purpose, roles, workflow, implemented capabilities, retained demonstrations, and limitations. It distinguishes current policy from historical execution, keeps Infra Agent Operations separate, and links the existing AI-assistance disclosure. Source documents, internal operating instructions, configurations, raw evidence, detailed security findings, and source-project history are not included.
+
 ## Review method
 
-The release candidate is checked by reading every included document and reviewing the complete Git object set and history. Deterministic checks cover the file allowlist, internal links, whitespace, source-code fences, external links, personal/operational identifiers, common secret patterns, and commit author/committer metadata.
+The release candidate is checked by reading every included document and reviewing the reachable Git objects and history. Deterministic checks cover the file allowlist, internal links, whitespace, source-code fences, external links, personal/operational identifiers, common secret patterns, and commit author/committer metadata.
 
-The repository is initialized independently rather than forked or copied from a source repository. Neutral portfolio authorship is used for its new commit. No source-project history is imported. Remote contents and visibility are checked after delivery against the reviewed local candidate.
+The repository was initialized independently rather than forked or copied from a source repository. Its initial commit used neutral portfolio attribution; later updates may use ordinary owner attribution. No source-project history is imported. Remote contents and visibility are checked after delivery against the reviewed local candidate.
 
 These checks address this selected disclosure set. Pattern checks and AI review cannot guarantee that a reader will identify no commercially sensitive idea; the owner must assess whether the chosen conceptual and research disclosure fits the intended audience.
 
